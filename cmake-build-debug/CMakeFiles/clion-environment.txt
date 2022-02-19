@@ -1,0 +1,4 @@
+ToolSet: w64 9.0 (local)@D:\0.Programas_install\CLion 2021.3.3\bin\mingw
+Options: 
+
+Options:-DCMAKE_MAKE_PROGRAM=D:/0.Programas_install/CLion 2021.3.3/bin/ninja/win/ninja.exe
