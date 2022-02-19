@@ -3,6 +3,7 @@ using namespace std;
 int suma(int, int );
 void procedimiento1();
 int variableGlobal;
+const string SECCION="A";
 
 int main() {
     procedimiento1();
@@ -21,14 +22,14 @@ int main() {
 }
 
 int suma(int primerNumero, int segundoNumero){
-    //int resultado= primerNumero+segundoNumero;
+    //int resultado= primerNumero+segundoNumero; variable local
     //return primerNumero+segundoNumero;
-    variableGlobal= primerNumero+segundoNumero;
+    variableGlobal= primerNumero+segundoNumero;//variable global
     return variableGlobal;
 }
 
 void procedimiento1(){
-    cout<<" Hola, se ejecuta el procedimiento 1 "<<endl;
+    cout<<" Hola, se ejecuta el procedimiento  "<< "Progra con C++ primer ciclo seccion " <<SECCION<< endl;
 }
 
 
